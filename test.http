@@ -1,0 +1,44 @@
+# POST http://localhost:3000/api/create-user HTTP/1.1
+# content-type: application/json
+
+# {
+#     "username": "sample3"
+    
+# }
+
+
+# GET http://localhost:3000/api/get-token HTTP/1.1
+# content-type: application/json
+
+# {
+#     "userId": "65c7b8f3a17e01bd0a554399"
+    
+# }
+
+// Get Company Info
+# GET http://localhost:3000/api/get-company-info/65c7e1b1d31f6c69a90b65b1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "connectionId": "65c7e1b1d31f6c69a90b65b1"
+    
+# }
+
+# POST http://localhost:3000/api/create-customer/65c7e1b1d31f6c69a90b65b1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "customerName": "Wi Wonka",
+#     "email": "willy@gmail.com",
+#     "taxNumber": "123457",
+#     "phoneNumberType": "PRIMARY",
+#     "phoneNumber": "+12312322334"
+    
+# }
+
+# GET http://localhost:3000/api/get-customer-list/65c7e1b1d31f6c69a90b65b1 HTTP/1.1
+# content-type: application/json
+
+PUT http://localhost:3000/api/get-user/65c7b8f3a17e01bd0a554399 HTTP/1.1
+content-type: application/json
+
