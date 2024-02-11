@@ -26,6 +26,8 @@ Then run,
 npm run dev
 ```
 
+Checkout to the branch `completed` to see the completed demo.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 <!-- To see the completed version of this demo, head  `app/page.tsx`. The page auto-updates as you edit the file. -->
