@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export default async function getUser(req, res) {
+export default async function getCredentials(req, res) {
   const { userId } = req.query;
 
   if (!userId) {
